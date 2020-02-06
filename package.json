@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "description": "Utilities for develop",
+  "main": "index.js",
+  "repository": "https://github.com/metocherry/joyful.git",
+  "author": "jinseok <metocherry@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test:ci",
+    "clean": "lerna clean",
+    "clean:build": "lerna exec -- rimraf lib",
+    "release": "lerna publish",
+    "ls": "lerna ls"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "engines": {
+    "node": ">= 10.16.3",
+    "npm": ">= 6.9.0",
+    "yarn": ">= 1.21.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

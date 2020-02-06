@@ -1,0 +1,31 @@
+{
+  "name": "@metocherry/is",
+  "version": "0.0.8",
+  "description": "The utility to check types",
+  "main": "lib/index.js",
+  "author": "Jinseok Choi <metocherry@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "type",
+    "check"
+  ],
+  "homepage": "https://github.com/metocherry/joyful#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metocherry/joyful"
+  },
+  "scripts": {
+    "test": "echo test $npm_package_name"
+  },
+  "gitHead": "39714334f3d5298dc59bb86135f5cdc554b625dc"
+}

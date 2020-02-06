@@ -1,0 +1,21 @@
+{
+  "version": "0.0.8",
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "*.txt",
+        "test/**",
+        "**/test/**"
+      ]
+    }
+  },
+  "npmClient": "yarn",
+  "npmClientArgs": [
+    "--no-lockfile"
+  ]
+}

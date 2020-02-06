@@ -1,0 +1,22 @@
+# Project
+
+# Editors
+.idea
+.vscode
+
+# Modules
+node_modules
+
+# Log
+*.log
+
+# Cache
+*.cache
+.jest
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NPM
+.npmrc
