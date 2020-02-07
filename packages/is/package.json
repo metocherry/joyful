@@ -1,8 +1,8 @@
 {
   "name": "@metocherry/is",
-  "version": "0.0.8",
+  "version": "0.0.1",
   "description": "The utility to check types",
-  "main": "lib/index.js",
+  "main": "dist/is.min.js",
   "author": "Jinseok Choi <metocherry@gmail.com>",
   "license": "MIT",
   "publishConfig": {
@@ -25,7 +25,14 @@
     "url": "git+https://github.com/metocherry/joyful"
   },
   "scripts": {
-    "test": "echo test $npm_package_name"
+    "test": "jest test --modulePaths=src",
+    "unit": "yarn test --watch"
   },
-  "gitHead": "39714334f3d5298dc59bb86135f5cdc554b625dc"
+  "gitHead": "39714334f3d5298dc59bb86135f5cdc554b625dc",
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  }
 }
