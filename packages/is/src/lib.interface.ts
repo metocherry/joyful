@@ -3,7 +3,7 @@ interface IS {
 
   VERSION: string;
 
-  string: (text: string) => boolean;
+  string: (text: any) => boolean;
 }
 
 export default IS;
