@@ -1,0 +1,23 @@
+{
+  "name": "@metocherry/editor",
+  "version": "0.0.1",
+  "description": "To write a blog",
+  "keywords": [
+    "javascript",
+    "editor"
+  ],
+  "author": "jinseok <metocherry@gmail.com>",
+  "homepage": "https://github.com/metocherry/joyful#readme",
+  "license": "MIT",
+  "main": "lib/editor.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metocherry/joyful.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/metocherry/joyful/issues"
+  }
+}
