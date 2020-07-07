@@ -15,17 +15,17 @@
     "ls": "lerna ls"
   },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^3.20.2",
+    "rollup": "^2.20.0"
   },
   "engines": {
     "node": ">= 10.16.3",
     "npm": ">= 6.9.0",
     "yarn": ">= 1.21.1"
   },
-  "workspaces": [
-    "packages/*"
-  ],
-  "resolutions": {
-    "minimist": "^1.2.5"
+  "resolutions": {},
+  "dependencies": {
+    "editor": "file:packages/editor",
+    "is": "file:packages/is"
   }
 }

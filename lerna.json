@@ -3,7 +3,7 @@
   "packages": [
     "packages/*"
   ],
-  "useWorkspaces": true,
+  "npmClient": "npm",
   "command": {
     "publish": {
       "ignoreChanges": [
@@ -12,10 +12,9 @@
         "test/**",
         "**/test/**"
       ]
+    },
+    "bootstrap": {
+      "npmClientArgs": ["--no-package-lock"]
     }
-  },
-  "npmClient": "yarn",
-  "npmClientArgs": [
-    "--no-lockfile"
-  ]
+  }
 }

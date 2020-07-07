@@ -1,45 +1,32 @@
 {
-  "name": "@metocherry/editor",
+  "name": "editor",
   "version": "0.0.1",
-  "description": "To write a blog",
-  "main": "lib/editor.js",
-  "license": "MIT",
+  "description": "edtior",
   "keywords": [
-    "javascript",
-    "editor"
+    "edtior"
   ],
   "author": "jinseok <metocherry@gmail.com>",
+  "homepage": "https://github.com/metocherry/joyful#readme",
+  "license": "MIT",
+  "main": "lib/editor.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/metocherry/joyful.git"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.7",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-typescript": "^7.8.3",
-    "@typescript-eslint/eslint-plugin": "^2.23.0",
-    "@typescript-eslint/parser": "^2.23.0",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.8.0",
-    "eslint-plugin-import": "^2.20.1",
-    "typescript": "^3.8.3",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
-    "webpack-merge": "^4.2.2"
-  },
-  "dependencies": {},
   "scripts": {
-    "type-check": "tsc --noEmit",
-    "type-check:watch": "yarn type-check -- --watch",
-    "build": "yarn build:types && yarn build:js",
-    "build:types": "tsc --emitDeclarationOnly",
-    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
-    "bundle": "webpack",
-    "start": "webpack-dev-server --env.dev",
-    "lint": "eslint src/ --ext .js,.ts,.tsx",
-    "lint:fix": "yarn lint --fix"
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/metocherry/joyful/issues"
+  },
+  "devDependencies": {
+    "rollup": "^2.20.0"
   }
 }

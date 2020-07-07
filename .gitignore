@@ -5,7 +5,7 @@
 .vscode
 
 # Modules
-node_modules
+**/node_modules/
 
 # Log
 *.log
