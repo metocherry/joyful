@@ -1,18 +1,14 @@
 {
-  "name": "@metocherry/is",
+  "name": "is",
   "version": "0.0.1",
-  "description": "The utility to check types",
-  "main": "dist/is.min.js",
-  "author": "Jinseok Choi <metocherry@gmail.com>",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
+  "description": "> TODO: description",
   "keywords": [
-    "type",
-    "check"
+    "type"
   ],
+  "author": "jinseok <metocherry@gmail.com>",
   "homepage": "https://github.com/metocherry/joyful#readme",
+  "license": "MIT",
+  "main": "lib/is.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -22,17 +18,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metocherry/joyful"
+    "url": "git+https://github.com/metocherry/joyful.git"
   },
   "scripts": {
-    "test": "jest test --modulePaths=src",
-    "unit": "yarn test --watch"
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "39714334f3d5298dc59bb86135f5cdc554b625dc",
+  "bugs": {
+    "url": "https://github.com/metocherry/joyful/issues"
+  },
   "devDependencies": {
-    "@types/jest": "^25.1.4",
-    "jest": "^25.1.0",
-    "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3"
+    "rollup": "^2.20.0"
   }
 }
